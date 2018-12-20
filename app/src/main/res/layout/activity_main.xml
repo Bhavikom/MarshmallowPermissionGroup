@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_single_permission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ask Single Permission"
+        />
+    <Button
+        android:id="@+id/btn_multiple_permission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ask Mulitple Permission"
+        />
+    <Button
+        android:id="@+id/btn_call_Fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Fragment"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/fragment_container"
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+</LinearLayout>
